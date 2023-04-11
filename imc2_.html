@@ -42,6 +42,39 @@
 
         imprimir("el imc calculado de " + nombre + " es de " + imcCalculado);
 
+        if (imcCalculado < 18.5) {
+            imprimir("abajo de lo recomendado");
+        }
+
+        if (imcCalculado >= 18.5) {
+
+            if (imcCalculado <= 25) {
+
+                imprimir("IMC Normal");
+
+            }
+        }
+
+        if (imcCalculado >= 25) {
+
+            if (imcCalculado <= 30) {
+
+                imprimir("IMC Sobre Peso");
+
+            }
+        }
+
+        if (imcCalculado >= 30) {
+            imprimir("IMC considerado como Obesidad");
+        }
+
+
+
+
+
+
+
+
 
     </script>
 </body>
